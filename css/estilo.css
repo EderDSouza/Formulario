@@ -1,0 +1,36 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#fora {
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+
+}
+
+#meio {
+    width: 700px;
+    height: 800px;
+    background-color: coral;
+    margin-left: 350px;
+    
+}
+
+#dentro {
+    border: 2px solid black;
+    width: 600px;
+    height: 700px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 2em;
+
+}
