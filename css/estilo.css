@@ -3,19 +3,32 @@
     margin: 0%;
     padding: 0%;
 }
+body{
+    margin-top: 30px;
+    
+    color: white;
+}
 
 #fora {
     width: 100%;
     height: auto;
-    background-color: aquamarine;
+    background-color: #59598F;
+    
+    position: absolute;
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8),
+     rgba(136, 136, 206, 0.7) ),
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
 
 }
 
 #meio {
     width: 700px;
     height: 800px;
-    background-color: coral;
+    background-color:  #2A2946;
     margin-left: 350px;
+    position: relative;
+    margin-top: 70px;
+    
     
 }
 
@@ -23,14 +36,26 @@
     border: 2px solid black;
     width: 600px;
     height: 700px;
+    margin-left: 50px;
+    background-color: #2A2946;
+    
+    
+    
     
 }
 
 h1 {
     text-align: center;
+    
+    
+
+    
 }
 
 p {
-    font-size: 2em;
+    margin-top: 20px;
+    font-size: 1.4em;
 
 }
+
+
