@@ -28,6 +28,7 @@ body{
     margin-left: 350px;
     position: relative;
     margin-top: 70px;
+    padding-top: 30px;
     
     
 }
@@ -38,6 +39,7 @@ body{
     height: 700px;
     margin-left: 50px;
     background-color: #2A2946;
+
     
     
     
@@ -45,7 +47,10 @@ body{
 }
 
 h1 {
+    font-size: 2.5em  ;
+    font-family: garamond, Arial, Helvetica, sans-serif;
     text-align: center;
+    padding-top: 30px;
     
     
 
@@ -53,6 +58,7 @@ h1 {
 }
 
 p {
+    font-family: 'Poppins', sans-serif;
     margin-top: 20px;
     font-size: 1.4em;
 
