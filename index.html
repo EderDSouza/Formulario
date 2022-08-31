@@ -17,68 +17,80 @@
             <div id="dentro">
                 <form >
                     <label for="nome">Nome</label><br>
-                    <input id="nome" type="text" name="nome" required> <br>
+                    <input class="caixagrande" id="nome" type="text" name="nome" required> <br><br>
 
                     <label for="email">Email</label><br>
-                    <input id="email" type="text" name="email" required><br>
+                    <input class="caixagrande" id="email" type="text" name="email" required><br><br>
 
                     <label for="idade">Idade (Opcional)</label><br>
-                    <input id="idade" type="text" name="idade"><br>
+                    <input class="caixagrande" id="idade" type="number" min="10 " max="99" ><br><br>
 
                     <label for="funcao">Qual opção melhor descreve sua função atual?</label><br>
-                    <input id="funcao" type="text" name="funcao"><br>
+                    <!--<input id="funcao" type="text" name="funcao"><br> -->
+                    <select name="" id="funcao">
+
+                        <option value="">Favor selecione</option>
+                        <option value="1">Empregado</option>
+                        <option value="2">Desempregado</option>
+                        <option value="3">Estudante</option>
+
+                    </select>
 
                     <!-- imput com radio (bolinha)-->
-                    <label>Você recomendaria esse site para um amigo</label><br>
-                    <input type="radio" name="" value="defi"> Sim Recomendaria <br>
-                    <input type="radio" name="" value="defi"> Pode ser <br>
-                    <input type="radio" name="" value="defi"> Não <br>
+                    <legend>Você recomendaria esse site para um amigo</legend><br>
 
-                    <label>Se você optar  não, Favor qual é o motivo?</label><br>
-                    <input type="text" name="motivo">
+                    <input class="sel-bolinha" type="radio" name="" value=""> <span>Sim Recomendo</span> <br><br>
+                    <input class="sel-bolinha" type="radio" name="" value=""> <span>Pode ser</span> <br><br>
+                    <input class="sel-bolinha" type="radio" name="" value=""> <span>Não Recomendo</span> <br><br>
 
-                    <p> O que você gostaria de ver melhorado? (Marque todos os que se aplicam)</p><br>
+                    <legend>Se você optar  não, Favor qual é o motivo? </legend><br>
+                    <input class="caixa-motivo" type="text" name="motivo"><br>
 
-                    <input type="checkbox" name="">
-                    <label> Projetos front-end</label><br>
+                    <legend>O que você gostaria de ver melhorado? (Marque todos os que se aplicam) </legend><br>
 
-                    <input type="checkbox" name="">
-                    <label> Projetos back-end</label><br>
+                    <input class="sel-caixa" type="checkbox" name="">
+                    <label> Projetos front-end</label><br><br>
 
-                    <input type="checkbox" name="">
-                    <label> Visualização de dados</label><br>
+                    <input class="sel-caixa" type="checkbox" name="">
+                    <label> Projetos back-end</label><br><br>
 
-                    <input type="checkbox" name="">
-                    <label> Desafios</label><br>
+                    <input class="sel-caixa" type="checkbox" name="">
+                    <label> Visualização de dados</label><br><br>
 
-                    <input type="checkbox" name="">
-                    <label> Comunidade de Código aberto</label><br>
+                    <input class="sel-caixa" type="checkbox" name="">
+                    <label> Desafios</label><br><br>
 
-                    <input type="checkbox" name="">
-                    <label> Salas de Ajuda do Gitter</label><br>
+                    <input class="sel-caixa" type="checkbox" name="">
+                    <label> Comunidade de Código aberto</label><br><br>
 
-                    <input type="checkbox" name="">
-                    <label> Videos</label><br>
+                    <input class="sel-caixa" type="checkbox" name="">
+                    <label> Salas de Ajuda do Gitter</label><br><br>
 
-                    <input type="checkbox" name="">
-                    <label> Encontros da Comunidade</label><br>
+                    <input class="sel-caixa" type="checkbox" name="">
+                    <label> Videos</label><br><br>
 
-                    <input type="checkbox" name="">
-                    <label> Wikepédia</label><br>
+                    <input class="sel-caixa" type="checkbox" name="">
+                    <label> Encontros da Comunidade</label><br><br>
 
-                    <input type="checkbox" name="">
-                    <label> Forum</label><br>
+                    <input class="sel-caixa" type="checkbox" name="">
+                    <label> Wikepédia</label><br><br>
 
-                    <input type="checkbox" name="">
-                    <label> Cursos de Auditor</label><br>
+                    <input class="sel-caixa" type="checkbox" name="">
+                    <label> Forum</label><br><br>
+
+                    <input class="sel-caixa" type="checkbox" name="">
+                    <label> Cursos de Auditor</label><br><br>
 
                     <!--Area de comentarios-->
 
 
                     <label for="#">Algum comentário ou sugestão.</label><br>
-                    <textarea rows="10" cols="78" ></textarea><br>
+                    <textarea rows="10" cols="78" id="comentar"  placeholder="Digite a mensagem aqui"
+                     maxlength="300" minlength="20">
 
-                    <input type="submit" value="Enviar">
+                    </textarea><br><br>
+
+                    <input class="sel-enviar" type="submit" value="Enviar" >
 
 
 
